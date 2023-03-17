@@ -1,0 +1,85 @@
+/**
+ * Set body styles
+ *
+ * @format
+ */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style the contact list */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.delete-button {
+  display: flex;
+  align-items: center;
+}
+
+.delete-button a {
+  color: #e74c3c;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.delete-button a:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Style the form */
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background-color: #2980b9;
+}
